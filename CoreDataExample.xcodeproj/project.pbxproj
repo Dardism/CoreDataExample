@@ -13,6 +13,7 @@
 		623F6F5E2142CDAF003700B2 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623F6F5C2142CDAF003700B2 /* CoreDataExample.xcdatamodeld */; };
 		623F6F602142CDB1003700B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623F6F5F2142CDB1003700B2 /* Assets.xcassets */; };
 		623F6F632142CDB1003700B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623F6F612142CDB1003700B2 /* LaunchScreen.storyboard */; };
+		623F6F6C2142CF50003700B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 623F6F6B2142CF4F003700B2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		623F6F5F2142CDB1003700B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		623F6F622142CDB1003700B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		623F6F642142CDB1003700B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623F6F6B2142CF4F003700B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		623F6F492142CDAF003700B2 = {
 			isa = PBXGroup;
 			children = (
+				623F6F6B2142CF4F003700B2 /* Default-568h@2x.png */,
 				623F6F542142CDAF003700B2 /* CoreDataExample */,
 				623F6F532142CDAF003700B2 /* Products */,
 			);
@@ -56,15 +59,23 @@
 		623F6F542142CDAF003700B2 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
-				623F6F552142CDAF003700B2 /* AppDelegate.swift */,
 				623F6F572142CDAF003700B2 /* ViewController.swift */,
 				623F6F592142CDAF003700B2 /* Main.storyboard */,
-				623F6F5F2142CDB1003700B2 /* Assets.xcassets */,
-				623F6F612142CDB1003700B2 /* LaunchScreen.storyboard */,
-				623F6F642142CDB1003700B2 /* Info.plist */,
 				623F6F5C2142CDAF003700B2 /* CoreDataExample.xcdatamodeld */,
+				623F6F6A2142CDDE003700B2 /* Supporting Files */,
 			);
 			path = CoreDataExample;
+			sourceTree = "<group>";
+		};
+		623F6F6A2142CDDE003700B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				623F6F5F2142CDB1003700B2 /* Assets.xcassets */,
+				623F6F612142CDB1003700B2 /* LaunchScreen.storyboard */,
+				623F6F552142CDAF003700B2 /* AppDelegate.swift */,
+				623F6F642142CDB1003700B2 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				623F6F632142CDB1003700B2 /* LaunchScreen.storyboard in Resources */,
+				623F6F6C2142CF50003700B2 /* Default-568h@2x.png in Resources */,
 				623F6F602142CDB1003700B2 /* Assets.xcassets in Resources */,
 				623F6F5B2142CDAF003700B2 /* Main.storyboard in Resources */,
 			);
